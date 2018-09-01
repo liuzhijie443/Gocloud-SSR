@@ -10,12 +10,12 @@
 2.启动Putty，登陆192.168.1.1，端口22222，用户名和密码admin。 </br> </br> 
 3.依次输入命令 
 
-----------------------------
+=
 `cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf`</br> </br> 
 `cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk`</br> </br> 
 `opkg update`</br> </br> 
 `opkg install ShadowsocksR-Gocloud.ipk`</br> </br> 
-----------------------------
+=
 
 
 4.完成后，重启您的路由器就可以在后台网络设置看到SSR选项。</br> </br> 
