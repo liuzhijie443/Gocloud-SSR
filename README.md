@@ -11,13 +11,15 @@
 3.依次输入命令 
 </br> </br> 
 <hr>
-`cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf
 </br>
-cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk
+`cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf`
 </br>
-opkg update
+`cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk`
 </br>
-opkg install ShadowsocksR-Gocloud.ipk`
+`opkg update`
+</br>
+`opkg install ShadowsocksR-Gocloud.ipk`
+</br>
 <hr>
 4.完成后，重启您的路由器就可以在后台网络设置看到SSR选项。</br> </br> 
 5/警告：完成以上内容后替换/etc/dropbear/authorized_keys中的公钥为您的公钥，并删除/etc/rc.local中的echo至/etc/dropbear/authorized_keys ，以免有心人从远程登陆您的路由.</br> </br> 
