@@ -13,9 +13,12 @@
 ---</br>
 `cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf`
 </br>
+</br>
 `cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk`
 </br>
+</br>
 `opkg update`
+</br>
 </br>
 `opkg install ShadowsocksR-Gocloud.ipk`
 </br>---
