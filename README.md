@@ -6,15 +6,15 @@
 
 
 ## 部署方法：
-1.进入高恪后台，选择导入配置，导入backup-ssh.config文件，等待路由重启后导入成功。
-2.启动Putty，登陆192.168.1.1，端口22222，用户名密码admin。登陆后输入opkg update
+1.进入高恪后台，选择导入配置，导入backup-ssh.config文件，等待路由重启后导入成功。</br> </br> 
+2.启动Putty，登陆192.168.1.1，端口22222，用户名和密码admin。 </br> </br> 
 3.输入命令 
-`
-【cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf
-【cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk】
-【opkg update】
-【opkg install ShadowsocksR-Gocloud.ipk】
-`
+
+`【cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf】`</br> </br> 
+`【cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk】`</br> </br> 
+`【opkg update】`</br> </br> 
+`【opkg install ShadowsocksR-Gocloud.ipk】`</br> </br> 
+</br> </br> 
 4.路由器联网。
 5.启动Putty，登陆192.168.1.1，端口同样为22222，用户名密码同上。登陆后输入opkg update
 6.刷新完成后输入cd /tmp,回车，opkg install S-S R.ipk
