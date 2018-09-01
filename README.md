@@ -24,4 +24,3 @@
 5/警告：完成以上内容后替换/etc/dropbear/authorized_keys中的公钥为您的公钥，并删除/etc/rc.local中的echo至/etc/dropbear/authorized_keys ，以免有心人从远程登陆您的路由.</br> </br> 
 
 ![image](https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/gocloud.png)
-
