@@ -9,7 +9,7 @@
 1.进入高恪后台，选择导入配置，导入backup-ssh.config文件，等待路由重启后导入成功。</br> </br> 
 2.启动Putty，登陆192.168.1.1，端口22222，用户名和密码admin。 </br> </br> 
 3.依次输入命令 
-=====----
+=</br> </br> 
 `cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf`</br> </br> 
 `cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk`</br> </br> 
 `opkg update`</br> </br> 
