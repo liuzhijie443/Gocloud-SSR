@@ -10,7 +10,8 @@
 2.启动Putty，登陆192.168.1.1，端口22222，用户名和密码admin。 </br> </br> 
 3.依次输入命令 
 </br> </br> 
-</br>---
+---
+</br>
 `cd /etc & wget -O opkg.conf https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/opkg.conf`
 </br>
 `cd /tmp & wget -O ShadowsocksR-Gocloud.ipk https://raw.githubusercontent.com/liuzhijie443/Gocloud-SSR/master/ShadowsocksR-Gocloud.ipk`
