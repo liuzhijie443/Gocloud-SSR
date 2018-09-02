@@ -2,8 +2,6 @@
 
 ## 简介：
 
-方法来自恩山论坛大神 [tsl0922](http://www.right.com.cn/forum/space-uid-96481.html)，Github [tsl0922](https://github.com/tsl0922/)，原项目和文件已经被删除，我顶多算备份。
-
 
 ## 部署方法：
 1.进入高恪后台，选择导入配置，导入backup-ssh.config文件，等待路由重启后导入成功。</br> </br> 
